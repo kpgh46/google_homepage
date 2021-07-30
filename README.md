@@ -1,0 +1,1 @@
+This is my first project for The Odin Project.  I have been studying for about 1 month learning about Command Line, Git, HTML, and CSS.  This particular project focuses on HTML and CSS.  This will be a model of the classic google home page.  Up until today, I have completed a few basic websites through FCC.  I look forward to learning more about HTML, CSS, and soon, Javascript.
