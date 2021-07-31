@@ -2,6 +2,36 @@ h1{
     color:red;
 }
 
+nav{
+    display:flex;
+    flex-direction: row;
+    width:auto;
+    background-color: grey;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    display: inline;
+    padding: 7px;
+}
+
+.topleft{
+    color:red;
+
+}
+
+.topright{
+    align-items: right;
+    color:red;
+    background-color: chartreuse;
+    flex-grow: 2;
+    position: absolute;
+    right: 10px;
+}
 
 
 
