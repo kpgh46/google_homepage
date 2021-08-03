@@ -1,13 +1,12 @@
 h1{
-    color:red;
+    color:grey;
 }
 
 nav{
     display:flex;
     flex-direction: row;
     width:auto;
-    background-color: grey;
-
+    
 }
 
 ul{
@@ -20,19 +19,124 @@ li{
 }
 
 .topleft{
-    color:red;
+    color:rgb(141, 136, 136);
 
 }
 
 .topright{
     align-items: right;
-    color:red;
-    background-color: chartreuse;
+    color:rgb(141, 136, 136);
+    b
     flex-grow: 2;
     position: absolute;
     right: 10px;
 }
 
+#container{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+    align-items: center;
+}
+
+#image{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 25px;;
+}
 
 
+form{
+    display:flex;
+    flex-direction: row;
+    border:solid;
+    width: 435px;
+    height: 35px;
+    border-radius:25px;
+    border-width:thin;
+    box-shadow: 2px 2px 2px 2px rgb(231, 226, 226);
+}
 
+#searchimg{
+    margin-left:10px;
+    margin-right:8px;
+}
+
+#searchbox{
+    border:none;
+    width: 350px;
+    height: 25px;
+    border-radius:25px;
+    margin-top:5px;
+    border-top-style: hidden;
+    
+}
+
+#microphone{
+    height: 25px;
+    width: 25px;
+    margin-top:5px;
+    padding-left:10px;
+}
+
+#searchbuttons{
+    display:flex;
+    flex-direction: row;
+    margin-top:30px;
+    
+}
+
+#searchbuttons > button{
+    margin:8px;
+}
+
+.buttons{
+    height: 38px;
+    width: 125px;
+    border:none;
+}
+
+footer{
+    position: fixed;
+    background-color: rgb(228, 218, 218);
+    width:100%;
+    bottom:0;
+}
+
+#bottomright{
+    float: right;
+
+}
+
+#bottomleft{
+    float:left;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(100, 97, 97);
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+#dots{
+    height:15px;
+    width:15px;
+    
+}
+
+#signin{
+    height:30px;
+    width:70px;
+    background-color: #252da5;
+    color:white;
+
+}
+
+input:focus{
+   outline:none;
+}
